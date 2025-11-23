@@ -2,6 +2,9 @@
     width: 80%;
     margin: 7em auto;
 }
+.skills h2{
+  margin-bottom: .5em;
+}
 .skills h3{
     margin-top: 1em;
 }
@@ -21,4 +24,52 @@
 .skills .habilidades .habTecnicas .nomeHab{
     font-size: 1.1em;
     font-weight: 300;
+}
+/* RESPONSIVIDADE */
+@media (max-width: 1024px) {
+  .skills {
+    width: 90%;
+    margin: 6em auto;
+  }
+  .skills .habilidades .habTecnicas .gridHab {
+    gap: 3%;
+  }
+  .skills .habilidades .habTecnicas .nomeHab {
+    font-size: 1em;
+  }
+}
+@media (max-width: 768px) {
+  .skills {
+    width: 90%;
+    margin: 5em auto;
+  }
+  .skills h3,.skills h2 {
+    text-align: center;
+  }
+  .skills p {
+    text-align: center;
+  }
+  .skills .habilidades .habTecnicas .gridHab {
+    grid-template-columns: 1fr;
+    gap: 1.5em;
+  }
+  .skills .habilidades .habTecnicas {
+    gap: 1.5em;
+  }
+  .skills .habilidades .habTecnicas .nomeHab {
+    font-size: 1em;
+    text-align: center;
+  }
+}
+@media (max-width: 480px) {
+  .skills {
+    width: 90%;
+    margin: 4em auto;
+  }
+  .skills .habilidades .habTecnicas .gridHab {
+    gap: 1.2em;
+  }
+  .skills .habilidades .habTecnicas .nomeHab {
+    font-size: .95em;
+  }
 }

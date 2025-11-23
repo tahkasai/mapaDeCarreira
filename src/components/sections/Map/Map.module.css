@@ -20,3 +20,23 @@
     height: 100%;
     background-color: var(--cor-branco);
 }
+/* RESPONSIVIDADE */
+@media (max-width: 1024px) {
+  .mapaCarreira {
+    width: 90%;
+  }
+}
+@media (max-width: 768px) {
+  .mapaLinha {
+    margin-top: 2.5em;
+    padding-left: 0;
+  }
+  .mapaCarreira h2, .mapaCarreira .descricaoCarreira{
+    text-align: center;
+  }
+}
+@media (max-width: 480px) {
+  .mapaLinha {
+    margin-top: 2em;
+  }
+}

@@ -28,3 +28,48 @@
 .apresentacao{
     font-size: 1.3em;
 }
+/* RESPONSIVIDADE */
+@media (max-width: 1024px) {
+  .hero {
+    height: 85vh;
+  }
+  .informacoesHero {
+    top: 60%;
+    transform: translate(-50%, -60%);
+  }
+  .apresentacao {
+    font-size: 1.2em;
+  }
+}
+@media (max-width: 768px) {
+  .hero {
+    height: 80vh;
+  }
+  .informacoesHero {
+    top: 55%;
+    transform: translate(-50%, -55%);
+  }
+  .informacoesHero div {
+    flex-direction: column;
+    gap: .7em;
+  }
+  .apresentacao {
+    font-size: 1.1em;
+    text-align: center;
+  }
+}
+@media (max-width: 480px) {
+  .hero {
+    height: 75vh;
+  }
+  .informacoesHero {
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .apresentacao {
+    font-size: 1em;
+  }
+  .informacoesHero div {
+    gap: .5em;
+  }
+}

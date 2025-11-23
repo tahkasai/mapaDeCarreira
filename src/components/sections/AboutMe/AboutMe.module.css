@@ -18,5 +18,43 @@
     display: flex;
     flex-direction: column;
     gap: 1em;
-    margin: 2em 0;
+    margin-bottom: 2em;
+}
+/* RESPONSIVIDADE */
+@media (max-width: 1024px) {
+    .aboutMe {
+        width: 90%;
+        margin: 4em auto;
+    }
+
+    .aboutMe .about .image img {
+        width: 70%;
+    }
+}
+@media (max-width: 768px) {
+    .aboutMe .about {
+        flex-direction: column;
+        text-align: center;
+        gap: 2em;
+    }
+    .aboutMe .about .image img {
+        width: 50%;
+    }
+    .aboutMe .about .info .paragrafos {
+        align-items: center;
+        text-align: justify;
+    }
+}
+@media (max-width: 480px) {
+    .aboutMe {
+        width: 92%;
+        margin: 3em auto;
+    }
+    .aboutMe .about .image img {
+        width: 60%;
+    }
+    .aboutMe .about .info .paragrafos {
+        gap: .7em;
+        margin-bottom: 1.5em;
+    }
 }

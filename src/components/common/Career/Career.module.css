@@ -32,3 +32,20 @@
     margin-bottom: 1em;
     padding-left: 1em;
 }
+/* RESPONSIVIDADE */
+@media (max-width: 1024px) {
+    .conteudoCarreira{
+        margin-left: 4em;
+    }
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 480px) {
+    .conteudoCarreira{
+        margin-left: 3em;
+    }
+    .iconeBox{
+        left: 1.1em;
+    }
+}
