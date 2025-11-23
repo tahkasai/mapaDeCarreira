@@ -2,16 +2,23 @@
     width: 80%;
     margin: 7em auto;
 }
+.skills h3{
+    margin-top: 1em;
+}
 .skills p{
     margin-bottom: 3em;
 }
-.skills .habilidades{
+.skills .habilidades .habTecnicas .gridHab{
     gap: 5%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
-.skills .habilidades .habTecnicas, .skills .habilidades .habPessoais{
+.skills .habilidades .habTecnicas{
     display: flex;
     flex-direction: column;
     gap: 2vh;
+}
+.skills .habilidades .habTecnicas .nomeHab{
+    font-size: 1.1em;
+    font-weight: 300;
 }

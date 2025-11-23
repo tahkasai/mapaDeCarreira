@@ -1,4 +1,5 @@
 .barraTotal{
+    margin: .2em 0;
     background-color: var(--cor-cinza);
     height: 2vh;
     width: 100%;
