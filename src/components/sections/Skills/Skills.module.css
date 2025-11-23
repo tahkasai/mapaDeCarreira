@@ -1,0 +1,17 @@
+.skills{
+    width: 80%;
+    margin: 7em auto;
+}
+.skills p{
+    margin-bottom: 3em;
+}
+.skills .habilidades{
+    gap: 5%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.skills .habilidades .habTecnicas, .skills .habilidades .habPessoais{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
