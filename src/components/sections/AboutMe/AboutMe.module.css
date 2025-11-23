@@ -1,0 +1,22 @@
+.aboutMe{
+    width: 80%;
+    margin: 5em auto;
+}
+.aboutMe .about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.aboutMe .about .image img{
+    width: 80%;
+    border-radius: 50%;
+}
+.aboutMe .about .info {
+    flex: 1;
+}
+.aboutMe .about .info .paragrafos{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin: 2em 0;
+}

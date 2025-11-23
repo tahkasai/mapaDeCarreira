@@ -1,0 +1,35 @@
+header{
+    width: 80%;
+    margin: auto;
+    position: absolute;
+    top: 5vh;
+    left: 50%;
+    transform: translate(-50%);
+    border: 1px solid var(--cor-cinza);
+    padding: 1.5em 2em;
+    background-color: var(--cor-cinza-transparente);
+    backdrop-filter: blur(20px);
+    border-radius: 2em;
+}
+header .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .header span{
+    font-size: 1.4em;
+    font-weight: 500;
+}
+header .header ul{
+    list-style: none;
+    display: flex;
+    gap: 2em;
+}
+header .header ul a{
+    color: var(--cor-branco);
+    text-decoration: none;
+}
+header .header ul a:hover{
+    transition: .4s;
+    color: var(--cor-vermelho);
+}
