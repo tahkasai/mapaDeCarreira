@@ -1,0 +1,14 @@
+.roadmap{
+    margin-top: 1em;
+    display: flex;
+    gap: .5em;
+    flex-wrap: wrap; 
+}
+.item{
+    max-width: max-content;
+    font-size: .8em;
+    background-color: var(--cor-vermelho);
+    color: var(--cor-branco);
+    padding: 1em;
+    border-radius: .7em;
+}

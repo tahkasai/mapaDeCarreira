@@ -1,0 +1,22 @@
+.mapaCarreira{
+    margin: auto;
+    width: 80%;
+}
+.mapaCarreira h2{
+    margin-bottom: .5em;
+}
+.mapaLinha {
+    list-style: none;
+    padding-left: .1em;
+    position: relative;
+    margin-top: 3em;
+}
+.mapaLinha::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 1.5em;
+    width: 3px;
+    height: 100%;
+    background-color: var(--cor-branco);
+}
