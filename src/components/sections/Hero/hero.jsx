@@ -7,7 +7,7 @@ import LiquidEther from '../../common/LiquidEther/LiquidEther';
 export default function Hero(){
     return(
         <>
-            <div className={styles.hero}>
+            <div className={styles.hero} id="hero">
                 <LiquidEther/>
                 <Header/>    
                 <div className={styles.informacoesHero}>

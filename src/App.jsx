@@ -5,6 +5,7 @@ import AboutMe from './components/sections/AboutMe/AboutMe'
 import Skills from './components/sections/Skills/Skills'
 import Map from './components/sections/Map/Map'
 import Contact from './components/sections/Contact/Contact'
+import Footer from './components/layout/Footer/Footer'
 
 export default function App() {
   const [count, setCount] = useState(0)
@@ -15,11 +16,8 @@ export default function App() {
       <AboutMe/>
       <Skills/>
       <Map/>
-      <Contact
-        icones={[
-          ""
-        ]}
-      />
+      <Contact/>
+      <Footer/>
     </>
   )
 }
