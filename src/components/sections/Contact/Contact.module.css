@@ -1,0 +1,104 @@
+.contato{
+    width: 80%;
+    margin: 5em auto;
+}
+.contatos{
+    margin: 5vh 0;
+    gap: 5%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.contatos .redesContato{
+    display: flex;
+    gap: 5vh;
+    flex-direction: column;
+}
+.contatos .redeSocial{
+    display: flex;
+    align-items: center;
+}
+.contatos .redeSocial i{
+    margin-right: 2%;
+    font-size: 2.5em;
+}
+.contatos .redeSocial div{
+    display: flex;
+    flex-direction: column;
+}
+.contatos .redeSocial div a{
+    text-decoration: none;
+    color: var(--cor-vermelho);
+}
+.formsContato form{
+    padding: 1.5em;
+    border-radius: 2em;
+    background-color: var(--cor-cinza-transparente);
+    gap: 1vh;
+    display: flex;
+    flex-direction: column;
+}
+.formsContato form textarea{
+    resize: none;
+}
+.formsContato form .inputContato{
+    font-family: var(--fonte-padrao);
+    background-color: var(--cor-cinza-transparente);
+    padding: .7em 1em;
+    border: 1px solid var(--cor-cinza);
+    border-radius: 1.5em;
+}
+/* RESPONSIVIDADE */
+@media (max-width: 1024px) {
+  .contato {
+    width: 90%;
+  }
+  .contatos {
+    gap: 3%;
+  }
+  .contatos .redeSocial i {
+    font-size: 2.2em;
+  }
+  .formsContato form {
+    padding: 1.2em;
+  }
+}
+@media (max-width: 768px) {
+  .contato {
+    width: 90%;
+    margin: 4em auto;
+  }
+  .contatos {
+    grid-template-columns: 1fr;
+    gap: 4vh;
+  }
+  .contatos .redesContato {
+    gap: 3vh;
+  }
+  .contatos .redeSocial i {
+    font-size: 2em;
+  }
+  .formsContato form {
+    padding: 1.2em;
+  }
+  .formsContato form .inputContato {
+    font-size: 0.95em;
+    padding: .7em .9em;
+  }
+}
+@media (max-width: 480px) {
+  .contatos .redeSocial {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .contatos .redeSocial i {
+    font-size: 1.8em;
+    margin-right: 4%;
+  }
+  .formsContato form {
+    gap: .8em;
+    padding: 1em;
+  }
+  .formsContato form textarea {
+    height: 120px;
+  }
+}
