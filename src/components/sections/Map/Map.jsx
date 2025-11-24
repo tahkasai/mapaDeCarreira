@@ -8,7 +8,7 @@ export default function Map() {
             <p className={styles.descricaoCarreira}>Este mapa de carreira representa o caminho que estou construindo para me tornar uma desenvolvedora Full-Stack completa. Aqui, organizei meus objetivos, competências e aprendizados para evoluir passo a passo — do estágio até a liderança técnica. Cada etapa é uma oportunidade de crescer, aprender novas tecnologias e me aproximar do futuro que estou construindo com dedicação, foco e paixão pela área de tecnologia.</p>
             <ul className={styles.mapaLinha}>
                 
-                <Career
+                {/* <Career
                     titulo="Estágio em Programação"
                     descricao="Quero conquistar o meu primeiro estágio na área, adquirindo experiência real no desenvolvimento de aplicações. Entendendo o fluxo de trabalho de equipes de tecnologia, participar de manutenções simples, implementar pequenas funcionalidades e aprender a usar ferramentas essenciais do dia a dia de um desenvolvedor."
                     topicos={[
@@ -27,7 +27,7 @@ export default function Map() {
                         "Fundamentos de Java",
                         "Noções de APIs REST"
                     ]}
-                />
+                /> */}
                 <Career
                     titulo="Desenvolvedora Full-Stack Júnior"
                     descricao="Quero atuar no desenvolvimento de aplicações completas, implementando funcionalidades tanto no front quanto no back-end, sempre sob orientação de profissionais mais experientes."
