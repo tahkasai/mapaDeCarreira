@@ -1,10 +1,16 @@
-.BotaoTransparente,.BotaoPadrao{
+.BotaoTransparente,
+.BotaoPadrao {
   cursor: pointer;
   padding: 1em 2em;
   font-size: .9em;
   font-family: var(--fonte-padrao);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.BotaoTransparente{
+
+.BotaoTransparente {
   color: var(--cor-branco);
   text-decoration: none;
   border: 1px solid var(--cor-cinza);
@@ -13,7 +19,8 @@
   border-radius: 2em;
   font-weight: 400;
 }
-.BotaoPadrao{
+
+.BotaoPadrao {
   color: var(--cor-branco);
   text-decoration: none;
   border: none;
@@ -22,7 +29,8 @@
   border-radius: 2em;
   font-weight: 500;
 }
-.BotaoForms{
+
+.BotaoForms {
   cursor: pointer;
   padding: 1em 2em;
   font-size: .9em;
@@ -34,8 +42,14 @@
   backdrop-filter: blur(20px);
   border-radius: 2em;
   font-weight: 500;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.BotaoForms:hover, .BotaoPadrao:hover{
+
+.BotaoForms:hover,
+.BotaoPadrao:hover {
   transition: .7s;
-  background-color: var( --cor-vermelho-escuro);
+  background-color: var(--cor-vermelho-escuro);
 }
