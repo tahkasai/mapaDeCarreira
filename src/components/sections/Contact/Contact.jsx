@@ -1,9 +1,10 @@
+import BotaoForms from './../../common/Button/Button';
 import styles from './Contact.module.css'
 
 export default function Contact(){
     return(
         <>
-            <section className={styles.contato}>
+            <section className={styles.contato} id='contato'>
                 <div className={styles.contatos}>
                     <div className={styles.redesContato}>
                         <div>
@@ -45,7 +46,9 @@ export default function Contact(){
 
                             <label htmlFor="mensagem">Mensagem</label>
                             <textarea name="mensagem" id="mensagem" rows="5" className={styles.inputContato} placeholder='Digite o assunto' required></textarea>
-                            <input type="submit" value="Enviar" />
+                            <BotaoForms
+                                texto="Enviar"
+                            />
                         </form>
                     </div>
                 </div>

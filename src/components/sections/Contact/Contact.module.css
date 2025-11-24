@@ -39,6 +39,7 @@
 }
 .formsContato form textarea{
     resize: none;
+    margin-bottom: 1em;
 }
 .formsContato form .inputContato{
     font-family: var(--fonte-padrao);

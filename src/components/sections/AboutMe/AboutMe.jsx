@@ -6,7 +6,7 @@ import SplitText from './../../common/SplitText/SplitText';
 export default function AboutMe(){
     return(
         <>
-            <section className={styles.aboutMe}>
+            <section className={styles.aboutMe} id="aboutMe">
                 <div className={styles.about}>
                     <div className={styles.image}>
                         <img src={Image} alt="Foto de perfil" />
@@ -22,7 +22,11 @@ export default function AboutMe(){
                             <p>Meu nome é Tainá Kasai. Tenho formação técnica em Desenvolvimento de Sistemas pela ETEC de Poá e estou no 3º semestre de Análise e Desenvolvimento de Sistemas na FATEC Ferraz, enquanto aprofundo meus estudos em Programação Web em Java pelo Instituto PROA.</p>
                             <p>Busco me tornar Desenvolvedora Full Stack, unindo minha paixão por tecnologia e design para criar soluções funcionais, intuitivas e inovadoras, sempre em constante evolução.</p>
                         </div>
-                        <Botao texto='Baixar o meu CV'/>
+                        <Botao 
+                        texto='Baixar o meu CV'
+                        link="/curriculo.pdf"
+                        target="_blank"
+                        />
                     </div>
                 </div>
             </section>

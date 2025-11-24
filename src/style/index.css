@@ -7,6 +7,7 @@
     --cor-cinza: rgb(56, 56, 56);
     --cor-cinza-transparente: rgba(56, 56, 56, 0.4);
     --cor-vermelho: rgb(208, 6, 6);
+    --cor-vermelho-escuro: rgb(146, 7, 7);
 }
 *{
     padding: 0;

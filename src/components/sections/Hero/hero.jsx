@@ -14,8 +14,14 @@ export default function Hero(){
                     <span className={styles.apresentacao}>Venha conhecer o meu</span>
                     <h1>Mapa de Carreira</h1>
                     <div>
-                        <Botao texto="Entre em contato"/>
-                        <BotaoTransparente texto="Veja mais"/>
+                        <Botao 
+                        texto="Entre em contato"
+                        link="#contato"
+                        />
+                        <BotaoTransparente 
+                        texto="Veja mais"
+                        link="#aboutMe"
+                        />
                     </div>
                 </div>
             </div>
