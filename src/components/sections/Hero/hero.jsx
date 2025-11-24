@@ -20,7 +20,7 @@ export default function Hero(){
                         />
                         <BotaoTransparente 
                         texto="Veja mais"
-                        link="#aboutMe"
+                        link="#sobre"
                         />
                     </div>
                 </div>

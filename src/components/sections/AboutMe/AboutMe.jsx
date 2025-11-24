@@ -6,7 +6,7 @@ import SplitText from './../../common/SplitText/SplitText';
 export default function AboutMe(){
     return(
         <>
-            <section className={styles.aboutMe} id="aboutMe">
+            <section className={styles.aboutMe} id="sobre">
                 <div className={styles.about}>
                     <div className={styles.image}>
                         <img src={Image} alt="Foto de perfil" />

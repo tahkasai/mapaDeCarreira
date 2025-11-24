@@ -3,7 +3,7 @@ import Career from "../../common/Career/Career";
 
 export default function Map() {
     return (
-        <section className={styles.mapaCarreira}>
+        <section className={styles.mapaCarreira} id="carreira">
             <h2>Mapa de Carreira</h2>
             <p className={styles.descricaoCarreira}>Este mapa de carreira representa o caminho que estou construindo para me tornar uma desenvolvedora Full-Stack completa. Aqui, organizei meus objetivos, competências e aprendizados para evoluir passo a passo — do estágio até a liderança técnica. Cada etapa é uma oportunidade de crescer, aprender novas tecnologias e me aproximar do futuro que estou construindo com dedicação, foco e paixão pela área de tecnologia.</p>
             <ul className={styles.mapaLinha}>

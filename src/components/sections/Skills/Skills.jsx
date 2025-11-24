@@ -4,7 +4,7 @@ import ProgressBar from '../../common/ProgressBar/ProgressBar';
 export default function Skills(){
     return(
         <>
-        <section className={styles.skills}>
+        <section className={styles.skills} id="habilidades">
             <h2>Habilidades</h2>
             <p>Afinidade com as seguintes tecnologias e técnicas:</p>
             <div className={styles.habilidades}>
