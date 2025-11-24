@@ -16,6 +16,14 @@ export default function Contact(){
                             <p>Quer conhecer meus projetos ou conhecer um pouco sobre mim? Entre em contato comigo!</p>
                         </div>
                         <div className={styles.redeSocial}>
+                            {/* <i class="fa-regular fa-envelope"></i> */}
+                            <i class="fa-solid fa-envelope"></i>
+                            <div>
+                                <span className={styles.titulo}>E-mail</span>
+                                <p>tainakasai01@gmail.com</p>
+                            </div>
+                        </div>
+                        <div className={styles.redeSocial}>
                             <i class="fa-brands fa-linktree"></i>
                             <div>
                                 <span className={styles.titulo}>Linktree (acesso aos meus projetos)</span>
