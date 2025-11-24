@@ -18,7 +18,7 @@ export function BotaoTransparente(props){
 export function BotaoForms(props){
     return(
         <>
-        <button type="submit" className={styles.BotaoForms}>{props.texto}</button>
+        <input type="submit" className={styles.BotaoForms}>{props.texto}</input>
         </>
     )
 }
