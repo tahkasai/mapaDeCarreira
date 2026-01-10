@@ -25,7 +25,7 @@ export default function Contact(){
             mensagem: mensagem
         }
 
-        emailjs.send(import.meta.env.VITE_EMAILJS_SERVICE_I,
+        emailjs.send(import.meta.env.VITE_EMAILJS_SERVICE_ID,
                      import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
                      template,
                      import.meta.env.VITE_EMAILJS_PUBLIC_KEY
