@@ -42,6 +42,7 @@
     margin-bottom: 1em;
 }
 .formsContato form .inputContato{
+  color: var(--cor-branco);
     font-family: var(--fonte-padrao);
     background-color: var(--cor-cinza-transparente);
     padding: .7em 1em;
