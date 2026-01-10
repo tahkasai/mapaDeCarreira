@@ -17,8 +17,9 @@ A aplicação foi construída com foco em uma apresentação clara, visual e din
 ## Tecnologias Utilizadas 🚀
 * React.js
 * Vite
+* <a href="https://www.emailjs.com">EmailJS</a> para o envio do formulário de contato
 
-Essas ferramentas garantem alto desempenho, modularidade e uma experiência fluida no front-end.
+
 
 ---
 
